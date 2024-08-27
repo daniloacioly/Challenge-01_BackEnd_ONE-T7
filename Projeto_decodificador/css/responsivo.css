@@ -1,0 +1,173 @@
+@media (min-width: 0px) and (max-width: 698px) {
+
+    .cabecalho {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .cabecalho__logo {
+        display: none;
+    }
+
+    .cabecalho__texto {
+        font-size: 22px;
+    }
+
+    .container {
+        padding: 0;
+        justify-content: space-evenly;
+    }
+
+    .text__area {
+        width: 50vw;
+        height: 45vh;
+        font-size: 20px;
+    }
+
+    .informacao {
+        font-size: 9px;
+    }
+
+    .botao__acao {
+        flex-flow: column wrap;
+    }
+
+    .botao__acao button:first-of-type {
+        width: 150px;
+        height: 50px;
+        padding: 15px;
+    }
+
+    .botao__acao button:last-of-type {
+        width: 150px;
+        height: 50px;
+        padding: 15px;
+    }
+
+    .aside {
+        height: 77vh;
+        left: 60vw;
+        width: 35vw;
+        padding: 8px;
+        top: 55px;
+    }
+
+    .semMensagem {
+        font-size: 16px;
+    }
+
+    .output__img {
+        display: none;
+    }
+
+    .output__mensagem {
+        font-size: 16px;
+    }
+
+    .output__span {
+        font-size: 14px;
+        align-items: center;
+        padding: auto;
+        margin: auto;
+    }
+
+    .output {
+        font-size: 16px;
+    }
+
+    .button__copiar {
+        width: 90px;
+        height: 50px;
+        padding: 10px;
+        margin: 10px;
+    }
+
+    .rodape {
+        margin-top: 8px;
+    }
+
+    .rodape__texto {
+        font-size: 10px;
+    }
+
+    .icone {
+        width: 14px;
+    }
+}
+
+@media (min-width: 699px) and (max-width: 1240px) {
+
+    .cabecalho__texto {
+        font-size: 32px;
+    }
+
+    .container {
+        padding: 0;
+        justify-content: space-around;
+    }
+
+    .text__area {
+        width: 55vw;
+        height: 50vh;
+        font-size: 30px;
+        margin-left: 10px;
+    }
+
+    .informacao {
+        font-size: 16px;
+    }
+
+    .botao__acao {
+        flex-flow: column wrap;
+    }
+
+    .botao__acao button:first-of-type {
+        width: 200px;
+        height: 70px;
+        padding: 20px;
+    }
+
+    .botao__acao button:last-of-type {
+        width: 200px;
+        height: 70px;
+        padding: 20px;
+    }
+
+    .aside {
+        height: 77vh;
+        left: 60vw;
+        width: 35vw;
+        padding: 8px;
+        top: 55px;
+    }
+
+    .semMensagem {
+        font-size: 16px;
+    }
+
+    .output__img {
+        height: 18vh;
+    }
+
+    .output__mensagem {
+        font-size: 28px;
+    }
+
+    .output__span {
+        font-size: 18px;
+        padding: auto;
+        margin: auto;
+    }
+
+    .output {
+        font-size: 30px;
+    }
+
+    .button__copiar {
+        width: 150px;
+        height: 60px;
+        padding: 20px;
+        margin: 20px;
+    }
+}
